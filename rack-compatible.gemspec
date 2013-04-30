@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rack/compatible/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rack-compatible"
+  spec.name          = 'rack-compatible'
   spec.version       = Rack::Compatible::VERSION
   spec.authors       = ['Evan Lecklider']
   spec.email         = ['evan.lecklider@gmail.com']
