@@ -1,4 +1,4 @@
-require "rack/compatible/version"
+require 'rack/compatible/version'
 
 module Rack
   class Compatible

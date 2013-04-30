@@ -1,12 +1,12 @@
 # Rack::Compatible
 
-TODO: Write a gem description
+Adds the 'X-UA-Compatible' header with a value of 'IE=edge,chrome=1' to every response per [H5BP](https://github.com/h5bp/html5-boilerplate)'s suggestion.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'rack-compatible'
+    gem 'rack-compatible', :require => 'rack/compatible'
 
 And then execute:
 
@@ -15,10 +15,11 @@ And then execute:
 Or install it yourself as:
 
     $ gem install rack-compatible
+    $ require 'rack/compatible'
 
 ## Usage
 
-TODO: Write usage instructions here
+    use Rack::Compatible
 
 ## Contributing
 
