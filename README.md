@@ -1,3 +1,5 @@
+*DISCLAIMER:* I'm not saying this is a good idea, and I've actually stopped using this gem myself and have moved this header business to Nginx (or Apache if you like). So, ya know, you've been warned.
+
 # Rack::Compatible
 
 Adds the 'X-UA-Compatible' header with a value of 'IE=edge,chrome=1' to every response per [H5BP](https://github.com/h5bp/html5-boilerplate)'s suggestion.
